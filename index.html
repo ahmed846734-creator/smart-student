@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول المذاكرة والملاحظات</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        /* تنسيق جدول المذاكرة */
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+
+        .day-column {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #2c3e50;
+            width: 15%;
+        }
+
+        /* تنسيق قسم الملاحظات */
+        .notes-section {
+            margin-top: 40px;
+            border-top: 2px solid #3498db;
+            padding-top: 20px;
+        }
+
+        .day-note-card {
+            background-color: #fafafa;
+            border-right: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .day-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .dots-line {
+            color: #7f8c8d;
+            letter-spacing: 2px;
+            line-height: 1.6;
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>جدول المذاكرة الأسبوعي</h1>
+    
+    <!-- جدول أيام الأسبوع -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>اليوم</th>
+                    <th>المادة الأولى</th>
+                    <th>المادة الثانية</th>
+                    <th>المادة الثالثة</th>
+                    <th>ملاحظات سريعة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="day-column">السبت</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day-column">الأحد</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day-column">الإثنين</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day-column">الثلاثاء</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day-column">الأربعاء</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day-column">الخميس</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="day-column">الجمعة</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- قسم ملاحظات اليوم -->
+    <div class="notes-section">
+        <h2>ملاحظات اليوم</h2>
+
+        <div class="day-note-card">
+            <div class="day-title">الأحد:</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+        </div>
+
+        <div class="day-note-card">
+            <div class="day-title">الإثنين:</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+        </div>
+
+        <div class="day-note-card">
+            <div class="day-title">الثلاثاء:</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+        </div>
+
+        <div class="day-note-card">
+            <div class="day-title">الأربعاء:</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+        </div>
+
+        <div class="day-note-card">
+            <div class="day-title">الخميس:</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+        </div>
+
+        <div class="day-note-card">
+            <div class="day-title">الجمعة:</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+            <div class="dots-line">• ............................................................................................</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
